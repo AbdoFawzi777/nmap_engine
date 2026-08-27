@@ -1,17 +1,20 @@
-name: nmap_engine
-description: A modular Nmap simulation engine for RedOps Hub.
-version: 1.0.0
+﻿name: nmap_engine
+description: Production-grade native network port scanner and service fingerprinter for Dart & Flutter. Inspired by Nmap methodology.
+version: 2.0.0
 publish_to: none
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
+  crypto: ^3.0.3
   flutter:
     sdk: flutter
   http: ^1.2.1
 
 dev_dependencies:
+  crypto: ^3.0.3
   flutter_test:
     sdk: flutter
   lints: ^3.0.0
+
